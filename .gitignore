@@ -1,0 +1,27 @@
+# Raw data duplicates
+archive/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+*.egg-info/
+
+# Data artifacts (large / generated)
+data/capstone.db
+data/movie_features.npy
+data/user_vectors.npy
+data/cluster_labels.npy
+data/rating_matrix.npy
+data/movies_clean.csv
+data/synthetic_users.csv
+data/recommendations.csv
+data/user_similarity.csv
+data/user_genre_vectors.npy
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Node
+node_modules/
+dist/
